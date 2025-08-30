@@ -18,10 +18,9 @@ export default defineConfig({
       {
         width: "400px",
         height: "400px",
-        position: "relative", // circles inside will use absolute
-        margin: "0 auto",     // horizontal centering
-        border: "1px solid #888", // optional visual boundary
-        "background-color": "#000", // optional background
+        position: "relative",
+        margin: "0 auto",
+        "background-color": "#000",
       },
     ],
     [
@@ -38,7 +37,7 @@ export default defineConfig({
           height: `${size}px`,
           "border-radius": "50%",
           background: colors[colorKey],
-          position: "absolute",   // absolute inside box
+          position: "absolute",
           top: "50%",
           left: "50%",
           transform: `translate(calc(-50% + cos(${angle}deg) * ${dist}px),
