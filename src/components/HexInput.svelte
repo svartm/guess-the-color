@@ -1,13 +1,10 @@
 <script lang="ts">
-  import { createEventDispatcher } from "svelte";
 
   export let currentHex: string;
   export let validatedHex: string;
 
   let inputEl: HTMLInputElement;
   let buffer = "";
-
-  const HEX_REGEX = /^#[0-9A-F]{6}$/;
 
   $: if (buffer !== "" && document.activeElement !== inputEl) {
       buffer = currentHex;
