@@ -12,4 +12,6 @@ export default defineConfig({
       injectReset: true //browser style reset
     }),
   ],
+  site: 'https://svartm.github.io',
+  base: '/guess-the-color',
 });
