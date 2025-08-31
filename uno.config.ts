@@ -16,8 +16,8 @@ export default defineConfig({
     [
       "color-display",
       {
-        width: "400px",
-        height: "400px",
+        width: "300px",
+        height: "300px",
         position: "relative",
         margin: "0 auto",
         "background-color": "#000",
